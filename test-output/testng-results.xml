@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-06T11:18:42Z" name="TestNG Regression Suite" finished-at="2023-03-06T11:19:50Z" duration-ms="67391">
+    <groups>
+    </groups>
+    <test started-at="2023-03-06T11:18:42Z" name="CRUD Test" finished-at="2023-03-06T11:18:42Z" duration-ms="98">
+      <class name="testngSessions.CRUDOperationtest">
+        <test-method signature="createUserTest()[pri:0, instance:testngSessions.CRUDOperationtest@3972a855]" started-at="2023-03-06T11:18:42Z" name="createUserTest" finished-at="2023-03-06T11:18:42Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="deleteUserTest()[pri:0, instance:testngSessions.CRUDOperationtest@3972a855]" started-at="2023-03-06T11:18:42Z" name="deleteUserTest" finished-at="2023-03-06T11:18:42Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method signature="getUserTest()[pri:0, instance:testngSessions.CRUDOperationtest@3972a855]" started-at="2023-03-06T11:18:42Z" name="getUserTest" finished-at="2023-03-06T11:18:42Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+        <test-method signature="getUserTesting()[pri:0, instance:testngSessions.CRUDOperationtest@3972a855]" started-at="2023-03-06T11:18:42Z" name="getUserTesting" finished-at="2023-03-06T11:18:42Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTesting -->
+        <test-method signature="updateUserTest()[pri:0, instance:testngSessions.CRUDOperationtest@3972a855]" started-at="2023-03-06T11:18:42Z" name="updateUserTest" finished-at="2023-03-06T11:18:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+      </class> <!-- testngSessions.CRUDOperationtest -->
+    </test> <!-- CRUD Test -->
+    <test started-at="2023-03-06T11:18:43Z" name="Priority Test" finished-at="2023-03-06T11:18:43Z" duration-ms="56">
+      <class name="testngSessions.PriorityTest">
+        <test-method signature="b_test()[pri:-1, instance:testngSessions.PriorityTest@7690781]" started-at="2023-03-06T11:18:43Z" name="b_test" finished-at="2023-03-06T11:18:43Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_test -->
+        <test-method signature="a_test()[pri:0, instance:testngSessions.PriorityTest@7690781]" started-at="2023-03-06T11:18:43Z" name="a_test" finished-at="2023-03-06T11:18:43Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_test -->
+        <test-method signature="c_test()[pri:0, instance:testngSessions.PriorityTest@7690781]" started-at="2023-03-06T11:18:43Z" name="c_test" finished-at="2023-03-06T11:18:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_test -->
+        <test-method signature="d_test()[pri:0, instance:testngSessions.PriorityTest@7690781]" started-at="2023-03-06T11:18:43Z" name="d_test" finished-at="2023-03-06T11:18:43Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_test -->
+        <test-method signature="e_test()[pri:1, instance:testngSessions.PriorityTest@7690781]" started-at="2023-03-06T11:18:43Z" name="e_test" finished-at="2023-03-06T11:18:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e_test -->
+      </class> <!-- testngSessions.PriorityTest -->
+    </test> <!-- Priority Test -->
+    <test started-at="2023-03-06T11:18:42Z" name="OpenCart Test" finished-at="2023-03-06T11:19:14Z" duration-ms="32182">
+      <class name="testngSessions.OpenCart">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:testngSessions.OpenCart@e1de817]" started-at="2023-03-06T11:18:42Z" name="setup" finished-at="2023-03-06T11:19:07Z" duration-ms="24842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:testngSessions.OpenCart@e1de817]" started-at="2023-03-06T11:19:07Z" name="titleTest" finished-at="2023-03-06T11:19:07Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSessions.OpenCart@e1de817]" started-at="2023-03-06T11:19:07Z" name="tearDown" finished-at="2023-03-06T11:19:14Z" duration-ms="7279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngSessions.OpenCart -->
+    </test> <!-- OpenCart Test -->
+    <test started-at="2023-03-06T11:18:42Z" name="Google Test" finished-at="2023-03-06T11:19:26Z" duration-ms="43470">
+      <class name="testngSessions.GoogleTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:testngSessions.GoogleTest@5ab9e72c]" started-at="2023-03-06T11:18:42Z" name="setup" finished-at="2023-03-06T11:19:15Z" duration-ms="32976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:testngSessions.GoogleTest@5ab9e72c]" started-at="2023-03-06T11:19:15Z" name="titleTest" finished-at="2023-03-06T11:19:17Z" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSessions.GoogleTest@5ab9e72c]" started-at="2023-03-06T11:19:17Z" name="tearDown" finished-at="2023-03-06T11:19:26Z" duration-ms="8401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngSessions.GoogleTest -->
+    </test> <!-- Google Test -->
+    <test started-at="2023-03-06T11:18:42Z" name="Amazon Test" finished-at="2023-03-06T11:19:50Z" duration-ms="67391">
+      <class name="testngSessions.AmazonTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:testngSessions.AmazonTest@776b83cc]" started-at="2023-03-06T11:18:42Z" name="setup" finished-at="2023-03-06T11:19:12Z" duration-ms="29346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:testngSessions.AmazonTest@776b83cc]" started-at="2023-03-06T11:19:12Z" name="titleTest" finished-at="2023-03-06T11:19:12Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSessions.AmazonTest@776b83cc]" started-at="2023-03-06T11:19:12Z" name="tearDown" finished-at="2023-03-06T11:19:20Z" duration-ms="8183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:testngSessions.AmazonTest@776b83cc]" started-at="2023-03-06T11:19:20Z" name="setup" finished-at="2023-03-06T11:19:32Z" duration-ms="12321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="isHelpExistTest()[pri:2, instance:testngSessions.AmazonTest@776b83cc]" started-at="2023-03-06T11:19:32Z" name="isHelpExistTest" finished-at="2023-03-06T11:19:33Z" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHelpExistTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSessions.AmazonTest@776b83cc]" started-at="2023-03-06T11:19:33Z" name="tearDown" finished-at="2023-03-06T11:19:36Z" duration-ms="2543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:testngSessions.AmazonTest@776b83cc]" started-at="2023-03-06T11:19:36Z" name="setup" finished-at="2023-03-06T11:19:47Z" duration-ms="10638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchExistTest()[pri:3, instance:testngSessions.AmazonTest@776b83cc]" started-at="2023-03-06T11:19:47Z" name="searchExistTest" finished-at="2023-03-06T11:19:47Z" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchExistTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSessions.AmazonTest@776b83cc]" started-at="2023-03-06T11:19:47Z" name="tearDown" finished-at="2023-03-06T11:19:50Z" duration-ms="2914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngSessions.AmazonTest -->
+    </test> <!-- Amazon Test -->
+  </suite> <!-- TestNG Regression Suite -->
+</testng-results>
